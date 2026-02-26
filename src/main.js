@@ -5,7 +5,8 @@ import { Quasar } from 'quasar'
 import { createPinia } from 'pinia'
 
 import '@quasar/extras/material-icons/material-icons.css'
-import 'quasar/dist/quasar.css'
+import 'quasar/src/css/index.sass'
+import './assets/base.css'
 
 const app = createApp(App)
 
