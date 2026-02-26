@@ -1,0 +1,1 @@
+import{i as u}from"./use-dark-bEKcnp87.js";import{Z as i,N as m,z as s}from"./index-CQIyDd2_.js";function f(){let e=null;const o=s();function t(){e!==null&&(clearTimeout(e),e=null)}return i(t),m(t),{removeTimeout:t,registerTimeout(n,r){t(),u(o)===!1&&(e=setTimeout(()=>{e=null,n()},r))}}}export{f as u};
