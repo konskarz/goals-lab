@@ -18,6 +18,12 @@ This affects usability for data-heavy apps (CRM, ERP, analytics dashboards). Lis
 - **Feed column** — Show records as vertical cards stacked in columns inside a horizontally scrollable row. The horizontal scrolling is unusual and unintuitive for most users.
 - **Narrow layout** — Constrain the main content area to a fixed centered width in the dashboard. This resolves the full-width reading problem without introducing extra complexity.
 
+## Typography Scaling
+
+- lightweight modernization layer over Quasar defaults
+- normalizes Quasar typography tokens to REM
+- uses root `font-size` as the single scaling control for proportional UI scaling
+
 ## Setup
 
 ```sh
